@@ -1,4 +1,4 @@
-# **🛒 E-commerce Chatbot**# <br>
+# **🛒 E-commerce Chatbot** # <br>
 An AI-powered E-commerce Chatbot built using Python and Natural Language Processing (NLP) to assist users with product-related queries, shopping guidance, and basic customer support through conversational interaction.
 
 ## **🧠 Overview** ## <br>
