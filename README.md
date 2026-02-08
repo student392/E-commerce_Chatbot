@@ -1,46 +1,44 @@
-# 💬 e-commerce chatbot (Gen AI RAG project using LLama3.3 and GROQ)
+# **🛒 E-commerce Chatbot** # <br>
+An AI-powered E-commerce Chatbot built using Python and Natural Language Processing (NLP) to assist users with product-related queries, shopping guidance, and basic customer support through conversational interaction.
 
-This is POC of an intelligent chatbot tailored for an e-commerce platform, enabling seamless user interactions by accurately identifying the intent behind user queries. It leverages real-time access to the platform's database, allowing it to provide precise and up-to-date responses.
+## **🧠 Overview** ## <br>
+This project simulates a virtual assistant for an e-commerce platform, allowing users to ask questions about products, pricing, availability, and general shopping support. The chatbot uses NLP techniques to understand user intent and provide relevant responses, making it a practical project for learning chatbot development and conversational AI.
 
-Folder structure
-1. app: All the code for chatbot
-2. web-scraping: Code to scrap e-commerce website 
+## **🚀 Features** ## <br>
+✅ Interactive conversational chatbot <br>
+✅ Handles product and shopping-related queries<br>
+✅ NLP-based intent recognition<br>
+✅ Easy-to-extend conversation flow<br>
+✅ Beginner-friendly AI project<br>
+✅ Lightweight and easy to run<br>
 
-This chatbot currently supports two intents:
+## **🧱 Project Structure** ## <br>
+├── data/                 # Training data / intents<br>
+├── model/                # Trained model files<br>
+├── chatbot.py            # Main chatbot application<br>
+├── train.py              # Model training script<br>
+├── requirements.txt      # Python dependencies<br>
+├── README.md             # Project documentation<br>
+└── LICENSE               # License file<br>
 
-- **faq**: Triggered when users ask questions related to the platform's policies or general information. eg. Is online payment available?
-- **sql**: Activated when users request product listings or information based on real-time database queries. eg. Show me all nike shoes below Rs. 3000.
+## **⚙️ Installation** ## <br>
+Install Dependencies <br>
+pip install -r requirements.txt <br>
 
+## **▶️ Run the Chatbot** ## <br>
+Start the chatbot using: <br>
+python chatbot.py <br>
+The chatbot will launch and respond to e-commerce–related queries through the terminal or configured interface. <br>
 
-![product screenshot](app/resources/product-ss.png)
+## **🧪 Training the Model (Optional)** ## <br>
+To train or retrain the chatbot model: <br>
+python train.py <br>
 
+## **📌 Technologies Used** ## <br>
+Python <br>
+Natural Language Processing (NLP) <br>
+Machine Learning <br>
+Chatbot Development <br>
 
-## Architecture
-![architecture diagram of the e-commerce chatbot](app/resources/architecture-diagram.png)
-
-
-### Set-up & Execution
-
-1. Run the following command to install all dependencies. 
-
-    ```bash
-    pip install -r app/requirements.txt
-    ```
-
-1. Inside app folder, create a .env file with your GROQ credentials as follows:
-    ```text
-    GROQ_MODEL=<Add the model name, e.g. llama-3.3-70b-versatile>
-    GROQ_API_KEY=<Add your groq api key here>
-    ```
-
-1. Run the streamlit app by running the following command.
-
-    ```bash
-    streamlit run app/main.py
-    ```
-
----
-
-Copyright (C) Codebasics Inc. All rights reserved.
-
-Additional Terms: This software is licensed under the MIT License. However, commercial use of this software is strictly prohibited without prior written permission from the author. Attribution must be given in all copies or substantial portions of the software.
+## **📄 License** ## <br>
+This project is licensed under the Apache-2.0 license — see the LICENSE file for details.
